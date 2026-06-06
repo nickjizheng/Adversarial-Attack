@@ -2,7 +2,9 @@
 
 This repository contains research code for evaluating how adversarial perturbations to video activity recognition can affect downstream assistant responses in safety-oriented settings.
 
-This repository accompanies my research paper: [Adversarial Attack Research Paper](docs/adversarial-attack-research-paper.pdf).
+This repository accompanies my published research paper: [Adversarial Attack Research Paper](docs/adversarial-attack-research-paper.pdf).
+
+DOI: [https://doi.org/10.61173/0r0nva44](https://doi.org/10.61173/0r0nva44)
 
 The experiments use UCF101-style activity videos, a fine-tuned ResNet18 frame classifier, FGSM perturbations, and GPT-based assistant prompts. Response shifts are compared with semantic and syntactic similarity metrics.
 
