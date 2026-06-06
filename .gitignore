@@ -1,0 +1,36 @@
+# Local secrets
+.env
+.env.*
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+env/
+
+# macOS resource-fork metadata
+._*
+.DS_Store
+
+# Datasets and large local artifacts
+data/
+checkpoints/*
+!checkpoints/.gitkeep
+outputs/*
+!outputs/.gitkeep
+*.pth
+*.pth_*
+
+# Generated media and reports
+*.png
+*.jpg
+*.jpeg
+*.mp4
+*.avi
+
